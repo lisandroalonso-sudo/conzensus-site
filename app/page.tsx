@@ -97,7 +97,6 @@ export default function HomePage() {
             <div className="flex items-center gap-3">
               <img src="/logo.png" alt="Conzensus" className="h-8" />
               <div className="text-xs uppercase tracking-[0.2em] text-slate-500">
-               Gestión para empresas
               </div>
               </div>
             <div className="text-xs uppercase tracking-[0.2em] text-slate-500">Gestión para empresas</div>
