@@ -94,7 +94,12 @@ export default function HomePage() {
       <header className="sticky top-0 z-30 border-b border-yellow-200/80 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <div>
-            <div className="text-2xl font-semibold tracking-tight">Conzensus</div>
+            <div className="flex items-center gap-3">
+              <img src="/logo.png" alt="Conzensus" className="h-8" />
+              <div className="text-xs uppercase tracking-[0.2em] text-slate-500">
+               Gestión para empresas
+              </div>
+              </div>
             <div className="text-xs uppercase tracking-[0.2em] text-slate-500">Gestión para empresas</div>
           </div>
           <nav className="hidden gap-8 text-sm text-slate-600 md:flex">
